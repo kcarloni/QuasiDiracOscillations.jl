@@ -1,0 +1,11 @@
+name = "PseudoDiracOscillations"
+uuid = "000cf17a-c6f7-4fbe-a12f-75971d180c89"
+authors = ["kcarloni <kcarloni@g.harvard.edu>"]
+version = "0.1.0"
+
+[deps]
+NaturallyUnitful = "872cf16e-200e-11e9-2cdf-8bb39cfbec41"
+Rotations = "6038ab10-8711-5258-84ad-4b1120ba62dc"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+UnitfulAstro = "6112ee07-acf9-5e0f-b108-d242c714bf9f"
