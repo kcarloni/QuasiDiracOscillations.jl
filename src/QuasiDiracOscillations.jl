@@ -1,4 +1,4 @@
-module PseudoDiracOscillations
+module QuasiDiracOscillations
 
 # using StaticArrays
 using Rotations
@@ -113,4 +113,4 @@ end
 
 export @u_str, natural
 
-end # module PseudoDiracOscillations
+end # module QuasiDiracOscillations

@@ -1,4 +1,4 @@
-name = "PseudoDiracOscillations"
+name = "QuasiDiracOscillations"
 uuid = "000cf17a-c6f7-4fbe-a12f-75971d180c89"
 authors = ["kcarloni <kcarloni@g.harvard.edu>"]
 version = "0.1.0"
