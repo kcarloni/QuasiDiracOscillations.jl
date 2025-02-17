@@ -39,21 +39,21 @@ begin
     α = mu
 
     L = 30km
-    E = exp10.(-1.5:0.01:1) * GeV
+    E = exp10.(-1.5:0.001:3) * GeV
 
     lw = 1.5
     β = ele
-        P = Posc_vacuum_planewave.( α, β, natural.(L) ./ E )
+        P = Posc_vacuum_standard.( α, β, natural.(L) ./ E )
         plot( E, P; lw, xlabel="energy E", label="P($α → $β)" )
     #
     
     β = mu
-        P .= Posc_vacuum_planewave.( α, β, natural.(L) ./ E )
+        P .= Posc_vacuum_standard.( α, β, natural.(L) ./ E )
         plot!( E, P; lw, label="P($α → $β)" )
     #
 
     β = tau
-        P .= Posc_vacuum_planewave.( α, β, natural.(L) ./ E )
+        P .= Posc_vacuum_standard.( α, β, natural.(L) ./ E )
         plot!( E, P; lw, label="P($α → $β)" )
     #
 

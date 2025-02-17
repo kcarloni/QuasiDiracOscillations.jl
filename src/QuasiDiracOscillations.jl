@@ -69,7 +69,7 @@ function Posc_vacuum_PD( α, β, LoE, δmsq::AbstractArray )
 
     # assuming standard oscillations average out
     return sum(
-        j -> abs2( U[α,j] * U[β,j] ) * cos( δmsq[j] * LoE / 4 )^2,
+        j -> abs2( U[α,j] ) * abs2( U[β,j] ) * cos( δmsq[j] * LoE / 4 )^2,
         1:3
     ) 
     
